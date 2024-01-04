@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Sargonica-V2.0/static/css/main.7acaea2f.css",
+    "main.js": "/Sargonica-V2.0/static/js/main.bc46ddd9.js",
+    "index.html": "/Sargonica-V2.0/index.html",
+    "main.7acaea2f.css.map": "/Sargonica-V2.0/static/css/main.7acaea2f.css.map",
+    "main.bc46ddd9.js.map": "/Sargonica-V2.0/static/js/main.bc46ddd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.bc46ddd9.js"
+  ]
+}
