@@ -1,3 +1,5 @@
+//import {} from '../shared';
+
 export const App = () => {
   return (
     <div
