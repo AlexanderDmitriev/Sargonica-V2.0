@@ -6,22 +6,24 @@
     "moduleResolution": "node",
     "isolatedModules": true,
     "lib": ["dom", "es6", "dom.iterable", "scripthost", "esnext"],
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "jsx": "react" /* Specify library files to be included in the compilation. */,
-    "outDir": "./dist" /* Redirect output structure to the directory. */,
-    "rootDir": "./src" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
-    "removeComments": true /* Do not emit comments to output. */,
-    "noEmitOnError": true,
+    "allowJs": true /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */,
+
+    /* Language and Environment */
+    "jsx": "react-jsx" /* Specify what JSX code is generated. */,
+    "rootDir": "./src" /* Specify the root folder within your source files. */,
+    "outDir": "./build",
+
+    /* JavaScript Support */
+    //"checkJs": true /* Enable error reporting in type-checked JavaScript files. */,
+    "noEmit": true /* Disable emitting files from a compilation. */,
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+    /* Type Checking */
     "strict": true /* Enable all strict type-checking options. */,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "sourceMap": true /* Generates corresponding '.map' file. */,
-    /* Additional Checks */
-    "noUnusedLocals": true /* Report errors on unused locals. */,
-    "noUnusedParameters": true /* Report errors on unused parameters. */,
-    "noImplicitReturns": true /* Report error when not all code paths in function return a value. */,
-    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+    /* Completeness */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "removeComments": true /* Do not emit comments to output. */
   },
   "exclude": ["node_modules", "dist"]
 }
