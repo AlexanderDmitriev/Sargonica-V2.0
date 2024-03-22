@@ -1,4 +1,4 @@
-import Button from '../shared';
+import { LabelSmall } from '../shared';
 
 const App = () => {
   return (
@@ -15,7 +15,11 @@ const App = () => {
       >
         React homework template
       </div>
-      <Button/>
+      <LabelSmall>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, odit?
+        Laudantium dolor in harum corrupti. Dicta tenetur ratione molestias
+        reiciendis!
+      </LabelSmall>
     </>
   );
 };

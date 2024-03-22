@@ -1,23 +1,24 @@
 import styled from 'styled-components';
 
-const Button = styled.button`
-  background-color: #41ccd8;
+export const Button = styled.button`
   padding: 16px 32px;
   border-radius: 8px;
-  font-family: 'Inter';
+  display: block;
+  min-width: 152px;
+  margin: 0 auto;
+  font-family: Inter sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 110%;
   /* or 26px */
-  display: block;
-  max-width: 200px;
-  margin: 0 auto;
+  background-color: rgb(65, 139, 119);
+  border: none;
   color: #fbfcfe;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
   @media screen and (min-width: 480px) {
-    max-width: 250px;
     font-size: 16px;
   }
   @media screen and (min-width: 768px) {
@@ -25,11 +26,16 @@ const Button = styled.button`
   }
   @media screen and (min-width: 1200px) {
     display: inline;
-    font-size: 24px;
+    font-size: 22px;
+    min-width: 174px;
   }
-  :hover {
-    background-color: #95e2e9;
+  &:hover,
+  :focus {
+    background-color: rgb(237, 237, 105);
+    color: #000;
   }
 `;
 
-export default Button;
+
+//*************TEST************////////
+/* <Button>TEST</Button> */
