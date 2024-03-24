@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/Sargonica-V2.0/static/css/main.7acaea2f.css",
-    "main.js": "/Sargonica-V2.0/static/js/main.fd63779a.js",
+    "main.js": "/Sargonica-V2.0/static/js/main.271cc3ee.js",
+    "static/media/Background2.svg": "/Sargonica-V2.0/static/media/Background2.102b395bb2331171fe4a904a6d738f4d.svg",
+    "static/media/Group29.svg": "/Sargonica-V2.0/static/media/Group29.ab4df022f246de4407bf9a2c8f789c06.svg",
+    "static/media/Background1.svg": "/Sargonica-V2.0/static/media/Background1.4a68ed86c7cda0e886f9d2b277a64988.svg",
+    "static/media/Background3.svg": "/Sargonica-V2.0/static/media/Background3.47b7f44cb8fd8cb48acc6dad337239cf.svg",
     "index.html": "/Sargonica-V2.0/index.html",
     "main.7acaea2f.css.map": "/Sargonica-V2.0/static/css/main.7acaea2f.css.map",
-    "main.fd63779a.js.map": "/Sargonica-V2.0/static/js/main.fd63779a.js.map"
+    "main.271cc3ee.js.map": "/Sargonica-V2.0/static/js/main.271cc3ee.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.fd63779a.js"
+    "static/js/main.271cc3ee.js"
   ]
 }
