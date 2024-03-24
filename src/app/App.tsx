@@ -1,13 +1,11 @@
-import { LabelSmall } from '../shared';
+import { Container, CustomTable } from '../shared';
 
 const App = () => {
+
   return (
-    <>
+    <Container>
       <div
         style={{
-          height: '100vh',
-          display: 'flex',
-          justifyContent: 'center',
           alignItems: 'center',
           fontSize: 40,
           color: '#010101',
@@ -15,12 +13,8 @@ const App = () => {
       >
         React homework template
       </div>
-      <LabelSmall>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, odit?
-        Laudantium dolor in harum corrupti. Dicta tenetur ratione molestias
-        reiciendis!
-      </LabelSmall>
-    </>
+      <CustomTable/>
+    </Container>
   );
 };
 
