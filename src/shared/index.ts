@@ -3,7 +3,7 @@ export {Basket} from './Basket';
 export {Burger} from './Burger';
 export {Button} from './Button';
 export {CustomSelect} from './CustomSelect';
-export {CustomTable} from './CustomTable';
+export {CustomTable} from './CustomTable/CustomTable';
 export {LabelSmall} from './LabelSmall';
 export {LabelLarge} from './LabelLarge';
 export {LabelTitle} from './LabelTitle';
