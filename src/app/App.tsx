@@ -1,4 +1,4 @@
-import { Container, CustomTable } from '../shared';
+import { Container, CustomSwitcher,CustomSwitcher2 } from '../shared';
 
 const App = () => {
 
@@ -13,7 +13,8 @@ const App = () => {
       >
         React homework template
       </div>
-      <CustomTable/>
+      <CustomSwitcher/>
+      <CustomSwitcher2/>
     </Container>
   );
 };
