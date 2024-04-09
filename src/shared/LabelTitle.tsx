@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 
 export const LabelTitle = styled.h2`
   font-family: Inter sans-serif;

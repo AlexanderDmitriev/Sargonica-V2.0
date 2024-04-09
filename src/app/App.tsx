@@ -1,4 +1,4 @@
-import { Container, CustomSwitcher,CustomSwitcher2 } from '../shared';
+import { Container, CustomSelectMUI } from '../shared';
 
 const App = () => {
 
@@ -13,8 +13,7 @@ const App = () => {
       >
         React homework template
       </div>
-      <CustomSwitcher/>
-      <CustomSwitcher2/>
+      <CustomSelectMUI/>
     </Container>
   );
 };

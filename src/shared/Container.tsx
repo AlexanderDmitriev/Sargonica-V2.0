@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 import back1 from '../images/Background1.svg';
 import back2 from '../images/Background2.svg';
 import back3 from '../images/Group29.svg';
