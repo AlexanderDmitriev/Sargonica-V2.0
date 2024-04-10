@@ -1,8 +1,8 @@
-import NativeSelect from '@mui/material/NativeSelect';
+import {CustomNativeSelect} from './CustomSelectMUI.styled';
 
 export const CustomSelectMUI = () => {
   return (
-    <NativeSelect
+    <CustomNativeSelect
       defaultValue={30}
       inputProps={{
         name: 'language',
@@ -12,6 +12,6 @@ export const CustomSelectMUI = () => {
       <option value={1}>UA</option>
       <option value={2}>EN</option>
       <option value={3}>RU</option>
-    </NativeSelect>
+    </CustomNativeSelect>
   );
 };

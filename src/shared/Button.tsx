@@ -12,7 +12,7 @@ export const Button = styled.button`
   font-size: 14px;
   line-height: 110%;
   /* or 26px */
-  background-color: rgb(65, 139, 119);
+  background-color: #418b77;
   border: none;
   color: #fbfcfe;
   text-align: center;
